@@ -68,7 +68,7 @@ public void displayLosingMessage()
     for (int i = 0; i < mines.size(); i++){
       mines.get(i).setClickedVariable();
     }
-    noLoop();
+    
     
 }
 
@@ -76,7 +76,7 @@ public void displayWinningMessage()
 {
     //your code here
     gameWon = true;
-   noLoop();
+   
 }
 
 public boolean isValid(int r, int c)
